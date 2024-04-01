@@ -201,7 +201,7 @@ function Home() {
             <hr/>
 
             <div className="break-container container d-flex">
-                <img className="w-50 col-md-6" src={require("../images/banner7.webp")}></img>
+                <img className="w-50 col-md-6" src={require("../images/d.jpg")}></img>
                 <img className="w-50 col-md-6 scnd" src={require("../images/banner5.png")}></img>
             </div>
 

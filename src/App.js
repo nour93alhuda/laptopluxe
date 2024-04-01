@@ -43,7 +43,7 @@ const App = () => {
     <Router>
         <Header  cartCtr={cartCtr} setCartCtr={setCartCtr} cartItems={cartItems}/>
         <Routes>
-            <Route path="/"    element={<h1>Main Page</h1>} />
+            <Route path="/"    element={<Home/>} />
             {/* <Route path="/"    element={  <React.Fragment> <Header/>  <Home/> </React.Fragment> } />  */}
             <Route path="/home"    element={<Home/>} /> 
             <Route path="/register"  element={<Register/>} />
